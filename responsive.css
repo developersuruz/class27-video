@@ -1,0 +1,96 @@
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399px) {
+   
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+  
+    
+  } 
+  
+   /* Medium devices (landscape tablets, 768px and up) */
+   @media (min-width: 768px) and (max-width: 991px) {
+     /* header-section */
+     .header-logo .mx-auto.d-block {
+        width: 60% !important;
+    }
+    .nav-link.text-white.fs-5 {
+        font-size: 16px !important;
+    }
+    /* banner-section */
+    .text-dark.py-2.fs-4.mx-5.bg-warning {
+        font-size: 17px !important;
+    } 
+    
+   
+    /* service-section */
+    .col-md-4 {
+        margin-bottom: 20px !important;
+    }
+   
+  } 
+    
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media (min-width: 576px) and (max-width: 767px) {
+ /* header-section */
+ .header-logo .mx-auto.d-block {
+    width: 30% !important;
+}
+.nav-link.text-white.fs-5 {
+    font-size: 16px !important;
+}
+
+/* banner-section */
+.text-dark.py-2.fs-4.mx-5.bg-warning {
+    font-size: 17px !important;
+}   
+.btn.btn-outline-light.py-2.fs-2.border-0.rounded-pill {
+	font-size: 23px !important;
+}
+
+/* About us Section */
+.service-section.text-center.py-3.mt-5 {
+	height: 900px !important;
+}
+.card {
+	margin-bottom: 20px;
+}
+}
+  
+  /* Extra small devices (phones, 600px and down) */
+   @media (max-width: 575px) {
+    /* header-section */ 
+    .mx-auto.d-block {
+        width: 30% !important;
+    }
+.nav-link.text-white.fs-5 {
+    font-size: 16px !important;
+}
+    /* banner-section */
+    .text-dark.py-2.fs-4.mx-5.bg-warning {
+        font-size: 17px !important;
+    }  
+    .btn.btn-outline-light.py-2.fs-2.border-0.rounded-pill {
+        font-size: 23px !important;
+    }
+
+    /* About us Section */
+.service-section.text-center.py-3.mt-5 {
+	height: 900px !important;
+}
+.card {
+	margin-bottom: 20px;
+}
+}
+
+@media (max-width:1400px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
